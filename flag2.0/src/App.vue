@@ -2,7 +2,7 @@
   <div id="nav">
 	  
     <router-link to="/Frist">开始升旗</router-link>
-
+    
   </div>
   
   <router-view/>
