@@ -1,0 +1,133 @@
+<template>
+
+<div id="max">
+<img src="../img/three.jpg" id="bj" alt="">
+<img src="../img/gq.png"  id="gq" alt="">
+
+<div id="shuju">
+    
+    <div>
+        <p>守护国旗！我是升旗手</p>
+        <p th:text="'恭喜'+${yb_realname}"></p>
+        <p th:text="'第'+${sequence}+'位完成升旗!'"></p>
+    </div>
+</div>
+
+<div id="fx">点击右上角进行分享</div>
+<p id="k"></p>
+</div>
+
+</template>
+
+<script>
+</script>
+
+<style>
+
+    body{
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+    
+        width: 100vw;
+        height: 100vh;
+    }
+
+    #bj{
+        top: 0px;
+        left: 0px;
+        background-size: 100% 100%;
+        height: 100%;
+        position: fixed;
+        width: 100%;
+		
+    }
+
+
+    #yjx{
+        width: 200px;
+        height: 100px;
+        line-height: 10px;
+        color: white;
+        /*border-radius: 100px;*/
+        /*background-color: #FFE53B;*/
+        /*background-image: linear-gradient(90deg, #FFE53B 0%, #FF2525 74%);*/
+        position:absolute;
+        bottom:0%;
+        left: 0%;
+    }
+    a{
+        text-decoration: none;      /*超链接去除下划线*/
+    }
+
+    #shuju{
+        padding: 50px 40px;
+        text-align: center;
+        line-height: 70px;
+        text-align: center;
+        font-size: 45px;
+        color: white;
+        width: 480px;
+        height: 570px;
+        background-color: red;
+        position: absolute;
+           top: 81.5%;
+           right: -104%;
+    }
+    #fx{
+        text-align: center;
+        font-size: 34px;
+        color: gold;
+        position: absolute;
+           top: 153.5%;
+           right: -70%;
+    }
+    #k{
+        z-index: 5;
+        border: yellow 10px solid;
+        position: absolute;
+           top: 84.2%;
+           right: -97%;
+        width: 500px;
+        height: 590px;
+    }
+
+    #l1{
+        width: 200px;
+        height: 200px;
+        border-radius: 75px 0px 0px 0px;
+        background-color: #FFE53B;
+        background-image: linear-gradient(90deg, #FFE53B 0%, #FF2525 74%);
+        position:absolute;
+        top: 56%;
+        right: 0px;
+    }
+    #l2{
+        width: 200px;
+        height: 200px;
+        background-color: #FFE53B;
+        background-image: linear-gradient(90deg, #FFE53B 0%, #FF2525 74%);
+        position:absolute;
+        top: 65%;
+        right: 0px;
+    }
+    #l3{
+        width: 200px;
+        height: 200px;
+        border-radius: 0px 0px 0px 75px;
+        background-color: #FFE53B;
+        background-image: linear-gradient(90deg, #FFE53B 0%, #FF2525 74%);
+        position:absolute;
+        top: 74%;
+        right: 0px;
+    }
+    #gq{
+        z-index: 30;
+        width: 975px;
+        height: 474px;
+        position:absolute;
+        top: 0;
+        left: 0;
+    }
+
+</style>
