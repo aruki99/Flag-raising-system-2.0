@@ -5,7 +5,7 @@ import End from '../views/End.vue'
 
 const routes = [
   {
-    path: '/Frist',
+    path: '/',
     name: 'Frist',
     component: Frist
   },
